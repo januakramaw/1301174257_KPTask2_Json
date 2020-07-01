@@ -1,0 +1,38 @@
+{
+	"info": {
+		"_postman_id": "9975d020-f212-4b73-ac05-4c51a99b2322",
+		"name": "Json",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Json",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n   \r\n   \"address\":{\r\n      \"street\":\"Nusa Loka\",\r\n      \"city\":\"BSD\",\r\n      \"state\":\"Indonesia\",\r\n      \"zip\":\"70116\"\r\n   },\r\n   \"first_name\":\"Janu\",\r\n   \"last_name\":\"Akrama\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8181/getEmployees",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8181",
+					"path": [
+						"getEmployees"
+					]
+				}
+			},
+			"response": []
+		}
+	],
+	"protocolProfileBehavior": {}
+}
